@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Mobile - تجربة المعركة الملكية</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #121212;
+            color: white;
+        }
+        
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            position: relative;
+        }
+        
+        .hero-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        
+        .menu-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            background-color: black;
+            border-radius: 15px;
+            margin: -40px auto 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .logo img {
+            width: 60px;
+            height: 60px;
+        }
+        
+        .game-title {
+            text-align: center;
+            margin: 20px 0;
+            color: #ff9800;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .description {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #e0e0e0;
+            font-size: 16px;
+        }
+        
+        .download-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .download-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        .download-button.android {
+            background-color: #6200ea;
+        }
+        
+        .download-button.ios {
+            background-color: #651fff;
+        }
+        
+        .download-button i {
+            margin-right: 10px;
+        }
+        
+        .section-title {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+        
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            border-top: 1px solid #333;
+        }
+        
+        .nav-button {
+            background: none;
+            border: none;
+            color: #777;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        
+        .nav-button.active {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="/api/placeholder/500/300" alt="Free Fire Game" class="hero-image">
+            <button class="menu-button">☰</button>
+        </header>
+        
+        <div class="logo">
+            <img src="/api/placeholder/60/60" alt="Free Fire Logo">
+        </div>
+        
+        <h1 class="game-title">Free Fire Mobile</h1>
+        
+        <p class="description">استمتع بتجربة معركة ملكية مثيرة على هاتفك المحمول مع أفضل لعبة قتال بقاء</p>
+        
+        <div class="download-buttons">
+            <a class="download-button android">
+                <i>▶️</i> تحميل للأندرويد
+            </a>
+            <a class="download-button ios">
+                <i>🍎</i> تحميل للآيفون
+            </a>
+        </div>
+        
+        <h2 class="section-title">لقطات الشاشة</h2>
+        
+        <div class="navigation">
+            <button class="nav-button">←</button>
+            <button class="nav-button">→</button>
+            <button class="nav-button">+</button>
+            <button class="nav-button">T</button>
+            <button class="nav-button">⋯</button>
+        </div>
+    </div>
+</body>
+</html>
